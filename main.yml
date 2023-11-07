@@ -1,0 +1,26 @@
+- hosts: localhost
+  connection: local
+
+- name: "Configure ssh keys"
+  hosts: localhost
+  roles:
+    - ssh
+  tags:
+    - arch
+    - debian
+
+- name: "Configure Arch Linux"
+  hosts: localhost
+  become: true
+  roles:
+    - arch
+  tags:
+    - arch
+# INFO: Jus an example of if I had another env to set up than Arch
+#
+# - name: "Another thing"
+#   hosts: localhost
+#   roles:
+#     - debian
+#   tags:
+#     - debian

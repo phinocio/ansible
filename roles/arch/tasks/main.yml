@@ -1,0 +1,32 @@
+- name: "Update system"
+  community.general.pacman:
+    update_cache: true
+    upgrade: true
+
+- name: "Install required packages"
+  community.general.pacman:
+    name:
+      - eza
+      - direnv
+      - fd
+      - fzf
+      - git-delta
+      - kitty
+      - neovim
+      - ripgrep
+      - tree
+      - xsel
+      - zsh
+    state: present
+
+- name: "Set shell to zsh"
+  ansible.builtin.user:
+    name: "alice"
+    shell: "/bin/zsh"
+# TODO: Uncomment this task once ssh keys are set up
+# - name: "Clone dotfiles repo to ~/.dotfiles"
+#   ansible.builtin.git:
+#     repo: "git@github:phinocio/dotfiles.git"
+#     dest: "{{ lookup('env', 'HOME') }}/.dotfiles"
+#     update: false
+#     version: "main"
