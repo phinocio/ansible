@@ -3,20 +3,23 @@
     update_cache: true
     upgrade: true
 
-- name: "Install required packages"
+- name: "Install required pacman packages"
   community.general.pacman:
     name:
       - bat
-      - eza
       - direnv
+      - eza
       - fd
       - fzf
       - git-delta
       - kitty
       - lazygit
+      - lf
       - neovim
       - ripgrep
+      - trash-cli
       - tree
+      - ueberzug
       - xsel
       - zsh
     state: present
