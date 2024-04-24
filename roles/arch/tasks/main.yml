@@ -10,6 +10,7 @@
       - blueman
       - eza
       - fcitx5
+      - fcitx5-configtool
       - fd
       - fzf
       - git-delta
@@ -18,6 +19,7 @@
       - lazygit
       - lf
       - neovim
+      - noto-fonts-cjk
       - polkit-kde-agent
       - ripgrep
       - slurp
