@@ -7,20 +7,28 @@
   community.general.pacman:
     name:
       - bat
-      - direnv
+      - blueman
       - eza
+      - fcitx5
       - fd
       - fzf
       - git-delta
+      - grim
       - kitty
       - lazygit
       - lf
       - neovim
+      - polkit-kde-agent
       - ripgrep
+      - slurp
       - trash-cli
-      - tree
-      - ueberzug
-      - xsel
+      - ttf-cascadia-code
+      - ttf-nerd-fonts-symbols
+      - ttf-nerd-fonts-symbols-common
+      - ttf-nerd-fonts-symbols-mono
+      - udiskie
+      - wl-clipboard
+      - xdg-desktop-portal
       - zsh
     state: present
 
