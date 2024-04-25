@@ -16,6 +16,7 @@
       - fuzzel
       - fzf
       - git-delta
+      - gnome-themes-extra
       - grim
       - kitty
       - lazygit
@@ -23,6 +24,7 @@
       - mako
       - neovim
       - noto-fonts-cjk
+      - nwg-look
       - obsidian
       - polkit-kde-agent
       - ripgrep
