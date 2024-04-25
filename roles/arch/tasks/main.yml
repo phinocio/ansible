@@ -23,6 +23,7 @@
       - mako
       - neovim
       - noto-fonts-cjk
+      - obsidian
       - polkit-kde-agent
       - ripgrep
       - slurp
