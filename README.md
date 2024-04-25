@@ -5,4 +5,4 @@ AUR Packages:
 - anki
 - paru
 - grimblast-git
-- fcitx5-mozx-ut
+- fcitx5-mozc-ut
