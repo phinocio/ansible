@@ -30,6 +30,8 @@
       - obsidian
       - pamixer
       - polkit-kde-agent
+      - qt5-wayland
+      - qt6-wayland
       - ripgrep
       - slurp
       - trash-cli
