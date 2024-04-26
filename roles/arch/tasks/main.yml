@@ -8,6 +8,7 @@
     name:
       - bat
       - blueman
+      - darkman
       - eza
       - fcitx5
       - fcitx5-configtool
