@@ -41,6 +41,7 @@
       - seahorse
       - slurp
       - starship
+      - tmux
       - trash-cli
       - ttf-cascadia-code
       - ttf-nerd-fonts-symbols
