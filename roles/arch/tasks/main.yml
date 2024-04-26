@@ -8,6 +8,7 @@
     name:
       - bat
       - blueman
+      - brightnessctl
       - darkman
       - eza
       - fcitx5
@@ -27,6 +28,7 @@
       - noto-fonts-cjk
       - nwg-look
       - obsidian
+      - pamixer
       - polkit-kde-agent
       - ripgrep
       - slurp
