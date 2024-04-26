@@ -18,14 +18,18 @@
       - fuzzel
       - fzf
       - git-delta
+      - gnome-keyring
       - gnome-themes-extra
       - grim
       - kitty
       - lazygit
       - lf
       - mako
+      - mpv
       - neovim
+      - noto-fonts
       - noto-fonts-cjk
+      - noto-fonts-emoji
       - nwg-look
       - obsidian
       - pamixer
@@ -33,7 +37,10 @@
       - qt5-wayland
       - qt6-wayland
       - ripgrep
+      - rsync
+      - seahorse
       - slurp
+      - starship
       - trash-cli
       - ttf-cascadia-code
       - ttf-nerd-fonts-symbols
@@ -44,6 +51,7 @@
       - wl-clipboard
       - xdg-desktop-portal
       - xdg-desktop-portal-hyprland
+      - xdg-user-dirs
       - zsh
     state: present
 
