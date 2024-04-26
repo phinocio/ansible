@@ -39,6 +39,7 @@
       - waybar
       - wl-clipboard
       - xdg-desktop-portal
+      - xdg-desktop-portal-hyprland
       - zsh
     state: present
 
