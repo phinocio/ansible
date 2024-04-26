@@ -21,6 +21,7 @@
       - gnome-keyring
       - gnome-themes-extra
       - grim
+      - imagemagick
       - kitty
       - lazygit
       - lf
