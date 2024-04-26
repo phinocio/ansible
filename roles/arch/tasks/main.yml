@@ -46,10 +46,9 @@
   ansible.builtin.user:
     name: "alice"
     shell: "/bin/zsh"
-
-- name: "Clone dotfiles repo to ~/.dotfiles"
-  ansible.builtin.git:
-    repo: "git@github:phinocio/dotfiles.git"
-    dest: "{{ lookup('env', 'HOME') }}/dotfiles"
-    update: false
-    version: "main"
+# - name: "Clone dotfiles repo to ~/.dotfiles"
+#   ansible.builtin.git:
+#     repo: "git@github:phinocio/dotfiles.git"
+#     dest: "{{ lookup('env', 'HOME') }}/dotfiles"
+#     update: false
+#     version: "main"
