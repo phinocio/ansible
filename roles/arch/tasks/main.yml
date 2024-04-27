@@ -27,6 +27,8 @@
       - lazygit
       - lf
       - mako
+      - man-db
+      - man-pages
       - mpv
       - neovim
       - noto-fonts
