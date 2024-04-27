@@ -53,6 +53,7 @@
       - ttf-nerd-fonts-symbols-common
       - ttf-nerd-fonts-symbols-mono
       - udiskie
+      - unzip
       - waybar
       - wl-clipboard
       - xdg-desktop-portal
