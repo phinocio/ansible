@@ -45,6 +45,8 @@
       - samba
       - seahorse
       - slurp
+      - snapper
+      - snap-pac
       - starship
       - tmux
       - trash-cli
