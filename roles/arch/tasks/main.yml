@@ -8,7 +8,7 @@
     name:
       - bat
       - blueman
-      - brightnessctl
+      - brightnessctl # Laptop
       - darkman
       - eza
       - fcitx5
@@ -21,12 +21,12 @@
       - gnome-keyring
       - gnome-themes-extra
       - grim
-      - gvfs-smb
-      - imagemagick
+      - gvfs-smb # For nautilus to use smb
+      - imagemagick # Kitty uses this for image previews apparently
       - kitty
       - lazygit
       - lf
-      - mako
+      - mako # Notifications, hyprland only?
       - man-db
       - man-pages
       - mpv
@@ -34,17 +34,18 @@
       - noto-fonts
       - noto-fonts-cjk
       - noto-fonts-emoji
-      - nwg-look
+      - nwg-look # Hyprland
+      - flatpak
       - obsidian
-      - pamixer
-      - polkit-kde-agent
+      - pamixer # Hyprland
+      - polkit-gnome # Hypr
       - qt5-wayland
       - qt6-wayland
       - ripgrep
       - rsync
       - samba
-      - seahorse
-      - slurp
+      - seahorse # Hypr
+      - slurp # Hypr
       - snapper
       - snap-pac
       - starship
@@ -56,7 +57,7 @@
       - ttf-nerd-fonts-symbols-mono
       - udiskie
       - unzip
-      - waybar
+      - waybar # Hypr
       - wl-clipboard
       - xdg-desktop-portal
       - xdg-desktop-portal-hyprland
