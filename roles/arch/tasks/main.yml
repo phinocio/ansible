@@ -14,7 +14,9 @@
       - fcitx5
       - fcitx5-configtool
       - fd
+      - ffmpegthumbnailer
       - firefox
+      - flatpak
       - fuzzel
       - fzf
       - git-delta
@@ -35,7 +37,6 @@
       - noto-fonts-cjk
       - noto-fonts-emoji
       - nwg-look # Hyprland
-      - flatpak
       - obsidian
       - pamixer # Hyprland
       - polkit-gnome # Hypr
@@ -46,22 +47,23 @@
       - samba
       - seahorse # Hypr
       - slurp # Hypr
-      - snapper
       - snap-pac
+      - snapper
       - starship
+      - thunar
       - tmux
       - trash-cli
       - ttf-cascadia-code
       - ttf-nerd-fonts-symbols
       - ttf-nerd-fonts-symbols-common
       - ttf-nerd-fonts-symbols-mono
+      - tumbler
       - udiskie
       - unzip
-      - waybar # Hypr
       - wl-clipboard
       - xdg-desktop-portal
-      - xdg-desktop-portal-hyprland
       - xdg-desktop-portal-gtk
+      - xdg-desktop-portal-hyprland
       - xdg-user-dirs
       - zsh
     state: present
