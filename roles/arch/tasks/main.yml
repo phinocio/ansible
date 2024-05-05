@@ -39,6 +39,7 @@
       - noto-fonts-emoji
       - nwg-look # Hyprland
       - obsidian
+      - pacman-contrib
       - pamixer # Hyprland
       - pipewire
       - pipewire-alsa
