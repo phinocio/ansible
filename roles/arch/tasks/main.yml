@@ -7,11 +7,10 @@
   community.general.pacman:
     name:
       - bat
-      - wlsunset
-      - ddcutil
       - blueman
       - brightnessctl # Laptop
       - darkman
+      - ddcutil
       - eza
       - fcitx5
       - fcitx5-configtool
@@ -41,6 +40,11 @@
       - nwg-look # Hyprland
       - obsidian
       - pamixer # Hyprland
+      - pipewire
+      - pipewire-alsa
+      - pipewire-audio
+      - pipewire-jack
+      - pipewire-pulse
       - polkit-gnome # Hypr
       - qt5-wayland
       - qt6-wayland
@@ -62,7 +66,9 @@
       - tumbler
       - udiskie
       - unzip
+      - wireplumber
       - wl-clipboard
+      - wlsunset
       - xdg-desktop-portal
       - xdg-desktop-portal-gtk
       - xdg-desktop-portal-hyprland
